@@ -1,0 +1,207 @@
+
+
+/* Content-Header */
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 140px;
+}
+
+.text-header {
+    width: 33.3%;
+    text-align: center;
+    color: red;
+    font-style: italic;
+    height: 146.45px;
+}
+
+.text-header h3 {
+    margin-top: 100px;
+}
+
+.logo {
+    width: 33.3%;
+    text-align: center;
+    margin-bottom: -15px;
+}
+
+.logo img {
+    width: 30%;
+    height: 80%;
+}
+
+.search {
+    width: 33.3%;
+    margin-bottom: 15px;
+}
+
+.search div {
+    width: 95%;
+    margin-top: 90px;
+}
+
+/* navbar */
+.content-navbar{
+    margin-left: -15px;
+    margin-right: -15px ;
+}
+.menu ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+/* section-1 */
+.section-1 {
+    width: 100%;
+}
+
+.section-1 h2 {
+    text-align: center;
+    color: #05BAB9;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.sub img {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+/* section-2 */
+.section-2{
+    width: 100%;
+}
+
+.section-2 h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #0EBCBC;
+    margin-bottom: 40px;
+}
+
+.section-2 h3 {
+    text-align: justify;
+    color: orange;
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+.section-2 p {
+    text-align: justify;
+    font-size: 15px;
+    margin-left: 80px;
+}
+
+.section-2 img {
+    max-height: 220px;
+
+}
+
+.best-seller {
+    text-align: center;
+
+}
+
+/* section-3 */
+.section-3 .form-group {
+    width: 90%;
+    margin-left: 60px;
+}
+
+.section-3 img {
+    width: 105%;
+    height: 400px;
+}
+
+.section-3 h1 {
+    text-align: center;
+    color: #0EBCBC;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section-3{
+    width: 100%;
+}
+
+/* footer */
+
+.footer {
+    background-color: #0EC0C3;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+
+
+.footer p,h5 {
+    text-align: center;
+    color: white;
+
+}
+
+/* mobile-devices */
+
+@media screen and (max-width: 768px) {
+    .content-header {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 25%;
+    }
+
+    .text-header h3 {
+        margin-top: 10px;
+        width: 100%;
+        font-size: 30px;
+
+    }
+
+    .logo {
+        width: 100%;
+        margin: 0;
+    }
+
+    .search {
+        width: 90%;
+        margin: -15px auto;
+    }
+
+    .search .search-div {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .sub img {
+        width: 100%;
+    }
+
+    .best-seller img {
+        width: 80%;
+    }
+
+    .best-seller h3 {
+        margin-left: 100px;
+    }
+
+    .best-seller p {
+        margin-left: 100px;
+    }
+
+    .section-3 form {
+        width: 100%;
+        margin-left: -40px;
+    }
+}
